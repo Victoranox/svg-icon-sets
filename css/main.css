@@ -1,0 +1,49 @@
+html {
+  box-sizing: border-box;
+  font-family: 'Overpass', sans-serif;
+  color: #fff;
+
+}
+
+section {
+  background-image: -webkit-linear-gradient(#ff9500, #ff5e3a);
+  background-image: -o-linear-gradient(#ff9500, #ff5e3a);
+  background-image: linear-gradient(#ff9500, #ff5e3a);
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+.icon {
+  color: #fff;
+  margin-top: 1rem;
+  /*
+  margin-left:auto;
+  margin-right:auto;
+  display:block;
+  */
+}
+
+.card {
+  border-bottom: solid 4px;
+  border-color: #ff9500;
+
+}
+
+a .btn, .btn-ghost {
+  color:#fff;
+  border-color: #fff
+}
+
+@media only screen and (min-width: 35em) {
+
+  .card {
+    border-bottom: 0px;
+
+    border-right: solid 3px;
+    border-color: #ff9500;
+
+  }
+
+}
