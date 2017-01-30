@@ -1,6 +1,6 @@
 html {
   box-sizing: border-box;
-  font-family: 'Overpass', sans-serif;
+  font-family: Overpass, sans-serif;
   color: #fff;
 
 }
@@ -18,11 +18,6 @@ section {
 .icon {
   color: #fff;
   margin-top: 1rem;
-  /*
-  margin-left:auto;
-  margin-right:auto;
-  display:block;
-  */
 }
 
 .card {
@@ -32,18 +27,29 @@ section {
 }
 
 a .btn, .btn-ghost {
-  color:#fff;
-  border-color: #fff
+  color: #fff;
+  border-color: rgba(255, 255, 255, .7);
 }
 
-@media only screen and (min-width: 35em) {
+.btn:hover {
+
+  color: rgba(255, 255, 255, .7);
+  border-color: rgba(255, 255, 255, 0);
+
+}
+
+@media only screen and (min-width: 60em) {
 
   .card {
-    border-bottom: 0px;
+    border-bottom: 0;
+    margin-top: 1em;
 
     border-right: solid 3px;
-    border-color: #ff9500;
+    border-color: rgba(255, 255, 255, .7);
+  }
 
+  .card:nth-child(3) {
+    border-right: solid 0;
   }
 
 }
